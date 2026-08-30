@@ -281,15 +281,16 @@ To keep documentation visuals separated from categorized configuration files, AC
 
 ```text
 📦 Triple-Boot-Master-Guide
- ┣ 📂 img                    # README Visual Blueprints & Infographics
- ┃ ┣ 🖼️ 3bi.png              # Cover Blueprint Banner (Placed after Executive Summary)
- ┃ ┣ 🖼️ p1.png               # Phase 1: UEFI Firmware & Disk Layout
- ┃ ┣ 🖼️ p2.png               # Phase 2: Windows 11 Deployment & Fast Startup
- ┃ ┣ 🖼️ p3.png               # Phase 3: OpenCore EFI Engineering & macOS
- ┃ ┣ 🖼️ p4.png               # Phase 4: Ubuntu Manual Partitioning & GRUB
- ┃ ┗ 🖼️ p5.png               # Phase 5: Master Boot Menu & Recovery
- ┣ 📂 efi-configs            # Sample OpenCore config.plist templates (Sanitized)
- ┣ 📂 tools                  # Tools and files required
- ┣ 📂 scripts                # Windows UTC clock fix (.reg) & post-install helpers
- ┗ 📄 README.md              # Master Documentation
+ ┣ 📂 img                              # README Visual Blueprints & Infographics
+ ┃ ┣ 🖼️ 3bi.png                        # Cover Blueprint Banner (Placed after Executive Summary)
+ ┃ ┣ 🖼️ p1.png                         # Phase 1: UEFI Firmware & Disk Layout
+ ┃ ┣ 🖼️ p2.png                         # Phase 2: Windows 11 Deployment & Fast Startup
+ ┃ ┣ 🖼️ p3.png                         # Phase 3: OpenCore EFI Engineering & macOS
+ ┃ ┣ 🖼️ p4.png                         # Phase 4: Ubuntu Manual Partitioning & GRUB
+ ┃ ┗ 🖼️ p5.png                         # Phase 5: Master Boot Menu & Recovery
+ ┣ 📂 efi-configs                      # Sample OpenCore config.plist templates (Sanitized)
+ ┣ 📂 tools                            # Tools and files required
+ ┣ 📂 scripts                          # Windows UTC clock fix (.reg) & post-install helpers
+ ┣ 📂 com.apple.recovery.boot          # Mac recovary image boot file
+ ┗ 📄 README.md                        # Master Documentation
 ```
