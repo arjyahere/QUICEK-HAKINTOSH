@@ -290,7 +290,7 @@ To keep documentation visuals separated from categorized configuration files, AC
  ┃ ┗ 🖼️ p5.png                         # Phase 5: Master Boot Menu & Recovery
  ┣ 📂 efi-configs                      # Sample OpenCore config.plist templates (Sanitized)
  ┣ 📂 tools                            # Tools and files required
- ┣ 📂 scripts                          # Windows UTC clock fix (.reg) & post-install helpers
- ┣ 📂 com.apple.recovery.boot          # Mac recovary image boot file
+ ┣ 📂 scripts                          # windows-utc-clock.reg (UTC RTC fix) & post-install helpers
+ ┣ 📂 com.apple.recovery.boot          # macOS recovery image (BaseSystem.dmg, Git LFS)
  ┗ 📄 README.md                        # Master Documentation
 ```

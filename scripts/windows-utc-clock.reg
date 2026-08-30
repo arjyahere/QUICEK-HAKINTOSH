@@ -1,0 +1,11 @@
+Windows Registry Editor Version 5.00
+
+; Make Windows treat the RTC (hardware clock) as UTC, matching macOS and Linux.
+; Without this, Windows stores local time in the RTC and every macOS/Linux boot
+; shifts the clock by your timezone offset (the classic "clock drift" bug).
+;
+; Apply: double-click, accept the UAC prompt, then reboot.
+; Revert: change the value to 00000000, or delete the RealTimeIsUniversal entry.
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\TimeZoneInformation]
+"RealTimeIsUniversal"=dword:00000001

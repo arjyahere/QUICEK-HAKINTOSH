@@ -1,1 +1,25 @@
+# Line-ending and binary handling for a mixed Windows/macOS/Linux repo.
+# Store text as LF in history; never let Git "fix" EFI binaries or images.
+* text=auto eol=lf
+
+# EFI / firmware assets — binary, must stay byte-identical
+*.efi   -text
+*.aml   -text
+*.bin   -text
+*.icns  -text
+*.l2x   -text
+*.lbl   -text
+*.kext  -text
+*.dylib -text
+
+# Archives and executables
+*.zip   -text
+*.exe   -text
+*.7z    -text
+
+# Images
+*.png   -text
+*.jpg   -text
+
+# Large Apple recovery image is stored in Git LFS
 *.dmg filter=lfs diff=lfs merge=lfs -text
