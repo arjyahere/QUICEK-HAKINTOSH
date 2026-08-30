@@ -289,7 +289,7 @@ To keep documentation visuals separated from categorized configuration files, AC
  ┃ ┣ 🖼️ p4.png               # Phase 4: Ubuntu Manual Partitioning & GRUB
  ┃ ┗ 🖼️ p5.png               # Phase 5: Master Boot Menu & Recovery
  ┣ 📂 efi-configs            # Sample OpenCore config.plist templates (Sanitized)
- ┣ 📂 acpi-patches           # Pre-compiled SSDT-EC / SSDT-PLUG reference tables
+ ┣ 📂 tools                  # Tools and files required
  ┣ 📂 scripts                # Windows UTC clock fix (.reg) & post-install helpers
  ┗ 📄 README.md              # Master Documentation
 ```
